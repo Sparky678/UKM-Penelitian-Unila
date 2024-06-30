@@ -1,0 +1,147 @@
+* {
+    margin : 0px;
+    padding: 0px;
+}
+
+/* Style untuk Header */
+.header{
+    background-image: url(/d9a82e28-4edd-411e-8c87-782b40f12220.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(71, 71, 71);
+    background-blend-mode: overlay;
+    height: 590px;
+}
+
+/* Style untuk Navbar */
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 80px;
+}
+
+.navbar-logo{
+    margin-left: 50px;
+    margin-top: 15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.UKM-Penelitian{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.navbar-item ul{
+    position: relative;
+    top: 35px;
+    left: 120px;
+}
+
+.navbar-item li{
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.navbar-item a:hover{
+    color: rgb(117, 200, 255);
+}
+/* Style untuk Navbar */
+
+/* Style untuk Pembukaan */
+.bagian-pembukaan{
+    margin-top: 130px;
+    margin-left: 100px;
+    word-spacing: 10px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* CSS */
+.button-pembukaan {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  justify-content: center;
+  line-height: 1.5;
+  margin-top: 1px;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 320px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.button-pembukaan:active,
+.button-pembukaan:focus {
+  outline: none;
+}
+
+.button-pembukaan:hover {
+  background-position: -20px -20px;
+}
+
+.button-pembukaan:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+/* Style untuk Pembukaan */
+
+/* Style untuk Header End */
+
+/* Style untuk Body */
+.Bagian-Departemen div{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    display: inline-block;
+}
+/* Style untuk Body End */
+
+/* Style untuk footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: 100px;
+}
+/* Style untuk footer End */
